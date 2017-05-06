@@ -5,5 +5,3 @@ Include File: PerlinNoise.tbasici
 
 Console Test Program: testNoise.tbasic
 
-## Needed to be done yet:
-add a seed function
