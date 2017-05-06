@@ -1,5 +1,6 @@
 ## thinBasic-PerlinNoise
 Improved Perlin Noise function for the thinBasic language
-        **Include File:**  PerlinNoise.tbasici
-**Console Test Program:** testNoise.tbasi
+
+  **1. Include File:**  PerlinNoise.tbasici
+  **2. Console Test Program:** testNoise.tbasi
 
