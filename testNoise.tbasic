@@ -2,7 +2,15 @@ Uses "Console"
 
 #INCLUDE "PerlinNoise.tbasici" 
 
-PrintL "should return 0.13691995878400012"
+PrintL "should return:"
+PrintL "0.13691995878400012"
+PrintL Str$ ( noise ( 3.14, 42, 7 ), 17 ) + CRLF 
+
+' noiseSeed allows for controlled different 
+' noise randomness that is repeatable each
+' time
+PrintL "should be different after noiseSeed 29"
+noiseSeed 29 
 PrintL Str$ ( noise ( 3.14, 42, 7 ), 17 )
 
 PrintL "Press a key to end program"
