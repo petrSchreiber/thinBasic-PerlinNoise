@@ -1,0 +1,10 @@
+Uses "Console" 
+
+#INCLUDE "PerlinNoise.tbasici" 
+
+PrintL "should return 0.13691995878400012"
+PrintL Str$ ( noise ( 3.14, 42, 7 ), 17 )
+
+PrintL "Press a key to end program"
+
+WaitKey
