@@ -91,7 +91,7 @@ Function grad ( hsh As Int32, x As Double, y As Double, z As Double ) As Double
 End Function 
 
 
-Function noise ( x As Double, y As Double, z As Double ) As Double
+Function PerlinNoise ( x As Double, y As Double, z As Double ) As Double
     Int32 fX = Int ( x ) And 255 : DebugLog " fX: " + fX
     Int32 fY = Int ( y ) And 255 : DebugLog " fY: " + fY
     Int32 fZ = Int ( z ) And 255 : DebugLog " fZ: " + fZ
@@ -128,7 +128,7 @@ Function DebugLog ( message As String )
     If debug Then PrintL message
 End Function  
 
-Function noiseSeed ( seed As Long )
+Function PerlinNoiseSeed ( seed As Long )
     Randomize ( seed ) 
     For i = 1 To 256
         Swap ( p ( i ), p ( Rnd ( 1, 256 ) ) )
