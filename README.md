@@ -16,3 +16,4 @@ x, y, z are double values
 You generally use PerlinNoiseSeed ( seedValue ) once in the beginning to give you the same noise results
 each time your program runs.
 ```
+http://www.thinbasic.com/community/showthread.php?12760-PerlinNoise&p=93498&viewfull=1#post93498
