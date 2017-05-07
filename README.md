@@ -7,10 +7,10 @@ Improved Perlin Noise function for the thinBasic language
 
 ```
 There are two functions for the programmer:
-1. noiseSeed ( seedValue )
+1. PerlinNoiseSeed ( seedValue )
 seedValue is an integer number, it will affect the noise returned from:
 
-2. noise( x, y, z ) 
+2. PerlinNoise( x, y, z ) 
 x, y, z are double values
 
 You generally use noiseSeed ( seedValue ) once in the beginning to give you the same noise results
